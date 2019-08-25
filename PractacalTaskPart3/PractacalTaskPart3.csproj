@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{35E48834-FB8C-4DD8-8BD6-A34EB7190626}</ProjectGuid>
+    <ProjectGuid>{2FE7046A-7520-45F6-9B21-4EC4DA46BC5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PracticalTaksPart1</RootNamespace>
-    <AssemblyName>PracticalTakPart1&amp;2</AssemblyName>
+    <RootNamespace>PractacalTaskPart3</RootNamespace>
+    <AssemblyName>PractacalTaskPart3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,18 +45,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task1.cs" />
-    <Compile Include="Task2.cs" />
-    <Compile Include="Task3.cs" />
-    <Compile Include="Task4.cs" />
-    <Compile Include="Task5.cs" />
-    <Compile Include="Task6.cs" />
-    <Compile Include="Task7.cs" />
-    <Compile Include="Task8.cs" />
-    <Compile Include="Task9.cs" />
+    <Compile Include="Task1\List.cs" />
+    <Compile Include="Task2\List.cs" />
+    <Compile Include="Task3\List.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
