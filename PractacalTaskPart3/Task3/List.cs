@@ -12,15 +12,10 @@ namespace PractacalTaskPart3.Task3
 
         public static void Menu()
         {
-
             list = ListCreater(itemsCount);
-            Console.WriteLine("Current list Count is - " + list.Count);
+            Console.WriteLine("List Count before organazing - " + list.Count);
             ListOrganizer(list);
-
-            foreach (var item in list)
-                Console.WriteLine(item);
-
-            Console.WriteLine("Current list Count is - " + list.Count);
+            Console.WriteLine("List Count after organazing - " + list.Count);
             Console.WriteLine("Enter the number of page to view it, or any symbol to exit");
             int input = Checker();
             DisplayPage(input);
